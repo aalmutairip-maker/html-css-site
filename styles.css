@@ -1,40 +1,63 @@
 body {
     font-family: sans-serif;
     font-size: 16px;
+    margin: 0;
+    background-color: #f7f7f7;
 }
 
 header {
-    background-color: lightgray;
+    background-color: #dfe7f2;
+    padding: 20px;
 }
 
 nav {
-    background-color: lightblue;
+    background-color: #b9d3ee;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
 }
 
 main {
-    background-color: #ffffff;
-    font-size: 18px;
+    padding: 20px;
 }
 
-footer {
-    background-color: lightgray;
+/* Default image styling */
+img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    display: block;
 }
 
-li {
-    display: inline-block;
-    width: 150px;
+/* Hero image (Home Page) */
+.hero {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
 }
 
-h1 {
-    text-align: center;
-    font-family: serif;
-    color: navy;
+/* Round profile image */
+.profile {
+    width: 250px;
+    border-radius: 50%;
 }
 
-p {
-    line-height: 1.5;
-}
-
+/* Skip link */
 .skip-link {
     position: absolute;
     left: -999px;
@@ -44,3 +67,13 @@ p {
     background: yellow;
     padding: 5px;
 }
+
+footer {
+    background-color: #dfe7f2;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+   
